@@ -1,0 +1,107 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+table {
+	border-collapse: collapse;
+	text-align: center;
+	width: 100%;
+}
+
+table td {
+	border: 1px solid #D5D5D5;
+	font-size: 12px;
+	padding: 7px 5px;
+}
+
+table th {
+	background-color: #EEE;
+	border-right: 1px solid #D5D5D5;
+	font-size: 13.5px;
+	line-height: 120%;
+	font-weight: bold;
+	padding: 8px 5px;
+}
+
+label {
+	color: #666666;
+	font-size: 14px;
+	cursor: pointer;
+}
+
+label img {
+	width: 14px;
+	height: 14px;
+}
+
+label.error {
+	color: red;
+}
+
+.tips {
+	border: 1px solid #CCC;
+	color: #666666;
+	font-size: 14px;
+	padding: 5px;
+	font-weight: bold;
+}
+
+.red {
+	color: red;
+}
+
+.green {
+	color: green;
+}
+
+.gray {
+	color: gray;
+}
+
+.inputtext {
+	border: 1px solid #BDC7D8;
+	font-size: 15px;
+	width: 180px;
+	height: 30px;
+	line-height: 18px;
+	padding: 5px 4px;
+	vertical-align: middle;
+}
+
+.submit {
+	background-color: #61BFF2;
+	border: 1px solid rgba(0, 0, 0, 0.1);
+	border-radius: 2px 2px 2px 2px;
+	color: #FFF;
+	font-size: 13px;
+	height: 29px;
+	line-height: 27px;
+	padding: 5px 4px;
+	text-align: center;
+	vertical-align: middle;
+	cursor: pointer;
+}
+
+.submit:hover {
+	background-color: #F8F8F8;
+	border: 1px solid #C6C6C6;
+	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+	color: #333333;
+}
+
+fieldset {
+	text-align: left; 
+	padding: 10px; 
+	line-height: 40px; 
+	font: 12px Geneva, Arial, Helvetica, sans-serif;
+}
+
+legend {
+	color: #9B9B9B; 
+	font: bold 14px Geneva, Arial, Helvetica, sans-serif;
+}
+
+a .close {
+	font-size: 75%;
+}

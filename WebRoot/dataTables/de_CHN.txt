@@ -1,0 +1,17 @@
+{
+	"sProcessing": "Bitte warten...",
+	"sLengthMenu": " 显示_MENU_条 ",
+	"sZeroRecords": "暂时没有记录",
+	"sInfo": " 从_START_ 到 _END_ 条记录——总记录数为 _TOTAL_ 条",
+	"sInfoEmpty": "暂时没有记录",
+	"sInfoFiltered": "(全部记录数 _MAX_  条)",
+	"sInfoPostFix": "",
+	"sSearch": "当前页面模糊搜索",
+	"sUrl": "",
+	"oPaginate": {
+		"sFirst":    "第一页",
+		"sPrevious": " 上一页 ",
+		"sNext":     " 下一页 ",
+		"sLast":     " 最后一页 "
+	}
+} 

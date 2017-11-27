@@ -1,0 +1,8 @@
+1、重新部署时需要修改的地方：
+	proxool.xml中的<driver-url>jdbc:mysql://localhost:3306/test</driver-url>;
+
+2、同时启动多个tomcat：
+	1、修改http访问端口：8080为8081；
+	2、修改Shutdown端口：8005为8006；
+	3、修改JVM启动端口：8009为8010。
+

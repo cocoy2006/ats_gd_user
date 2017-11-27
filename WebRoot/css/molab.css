@@ -1,0 +1,39 @@
+@CHARSET "UTF-8";
+body {background: url("../image/bg.png"); font-family: Tahoma,Verdana,sans-serif,simsun; font-size: 14px;}
+.body_wrap {margin: 0 auto; /*width: 800px;*/ width: 100%; min-width: 800px; height: 600px;}
+label {color: #666666; font-size: 14px; cursor: pointer;}
+label img {width: 14px; height: 14px;}
+label.error {color: red;}
+/*form {margin: 15px; padding: 10px 0px;}*/
+a {text-decoration: none;}
+a:hover {text-decoration: underline;}
+/* 头部样式 */
+.tophead {background-image: url("../image/topbg.gif"); border: 1px solid #B4CCDD;
+	margin: 0 0 10px 0; padding: 3px 10px 6px 10px; height: 70px; /*width: 790px;*/}
+.logo {float: left;}
+.logo label {font-size: 24px; color: #005EAC;}
+.banner {float: right; padding: 10px; text-align: right;}
+/* 主体样式 */
+#container {background: #F7F7F7; border: 1px solid #B4CCDD; padding: 10px;
+	/*width: 800px;*/ height: 380px; display: block;}
+
+.title {color: #005EAC; font-size: 14px; font-weight: bold;
+	margin: 20px; padding: 10px; border-bottom: 1px solid #E8E8E8;}
+.faceboxHeader {background: #E0E0E0; padding: 1px 0 1px 20px; font-weight: bold; }
+.tips {border: 1px solid #CCC; color: #666666; font-size: 14px; padding: 5px; font-weight: bold;}
+.red {color: red;}
+.green {color: green;}
+.gray {color: gray;}
+/* 按钮样式 */
+.inputtext {border: 1px solid #BDC7D8; font-size: 15px; height: 30px;
+	line-height: 18px; padding: 5px 4px; vertical-align: middle;}
+.submit {background-color: #4FC500; border: 1px solid rgba(0, 0, 0, 0.1);
+	border-radius: 2px 2px 2px 2px; color: #FFF; font-size: 13px; font-weight: bold; height: 29px; 
+	line-height: 27px; padding: 5px 4px; text-align: center; vertical-align: middle; cursor: pointer;}
+.submit:hover {background-color: #F8F8F8; border: 1px solid #C6C6C6;
+	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1); color: #333333;}
+/* 表格样式 */
+table {border-collapse: collapse; /*text-align: center;*/ width: 100%;}
+table td {border: 1px solid #D5D5D5; font-size: 12px; padding: 7px 5px;}
+table th {background-color: #EEE; border-right: 1px solid #D5D5D5; font-size: 13.5px;
+	line-height: 120%; font-weight: bold; padding: 8px 5px;}

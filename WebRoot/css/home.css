@@ -1,0 +1,9 @@
+@CHARSET "UTF-8";
+input {width: 180px;}
+
+/* 登录模块 */
+#login_div {float: left; background: #FFF; border-right: 1px solid #E3EEF8; padding: 10px 0; width: 300px; height: 360px;}
+#login_div tr {height: 32px;}
+/* 免费注册模块 */
+#reg_div {float: right; padding: 10px 0; width: 499px; height: 360px;}
+
